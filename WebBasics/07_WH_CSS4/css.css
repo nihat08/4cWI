@@ -1,0 +1,49 @@
+.box {
+  display: flex;
+  height: 600px;
+  width: 1500px;
+  justify-content: center;
+  background-color: azure;
+}
+.whiteRect {
+  height: 200px;
+  width: 1500px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 20px;
+}
+.blueRect {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 50px;
+}
+
+.greenRect1 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+.greenRect2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+.greenRect3 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+/*
+.orangeRect {
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+}
+.purpleRect {
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  justify-content: center;
+  align-items: center;
+}

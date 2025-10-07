@@ -34,4 +34,18 @@ function printCars(cars:Car[]):void {
 printCars(cars);
 
 
+function getExpensiveCars(cars: Car[], minPrice: number): Car[] {
+  let expensiveCars: Car[] = [];
+  for (let car of cars) {
+    if (car.price > minPrice) {
+      expensiveCars.push(car);
+    }
+  }
+  return expensiveCars;
+}
+const expensive = getExpensiveCars(cars, 40000);
+console.log(expensive);
+
+
+
 

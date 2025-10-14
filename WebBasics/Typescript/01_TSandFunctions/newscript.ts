@@ -1,9 +1,4 @@
-interface Car{
-    brand: string;
-    model: string;
-    price: number;
-    year: number
-}
+
 
 const cars2: Car[] = [
   { brand: "Toyota", model: "Corolla", price: 23000, year: 2022 },

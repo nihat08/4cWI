@@ -17,13 +17,13 @@ const people: Person[] = [
   { firstName: "James", lastName: "Rodriguez", age: 45 },
 ];
 
-const result: any[] = people.map((person: Person) => {
+const result111: any[] = people.map((person: Person) => {
   return { name: person.firstName, surname: person.lastName };
 });
 
 console.log(result);
 
-const filtered: Person[] = people.filter((person: Person) =>
+const filtered2: Person[] = people.filter((person: Person) =>
   person.firstName.startsWith("E")
 );
 console.log("filtered:", filtered);

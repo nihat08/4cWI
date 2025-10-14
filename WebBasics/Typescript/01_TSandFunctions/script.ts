@@ -20,7 +20,7 @@ function getTotalPrice(cars:Car[]):number{
   }
   return total;
 }
-const totalPrice = getTotalPrice(cars);
+const totalPrice111 = getTotalPrice(cars);
 console.log("Total:", totalPrice, "€");
 
 

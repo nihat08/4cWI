@@ -1,6 +1,7 @@
 import Card from './components/1_Card';
 import Button from './components/2_Button';
 import ShoppingList from './components/2_ShoppingList';
+import ImageCard from './components/2_Card';
 
 
 export default function App() {
@@ -22,10 +23,15 @@ export default function App() {
   </div>
 
   <h3 className="m-2 font-bold">Button</h3>
-  <div className="flex items-center justify-center ml-25 hover:bg-green-400 bg-green-600 w-30 h-10 m-2 cursor-pointer  ">
+  <div className="ml-10 gap-2">
     <Button title='Sendar'/>
+    <Button title='Button'/>
   </div>
 
+  <h3 className="m-2 font-bold">Card</h3>
+  <div className="m-4">
+    <ImageCard title="" description="" />
+  </div>
 
 
   </div>;

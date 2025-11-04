@@ -38,15 +38,15 @@ export default function App() {
 
   <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">3_Cards&Data</h2>
   <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-2">
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
-    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='aaa aaa' description='aaaa aaaa' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='bbb bbb' description='bbbb bbbb' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='ccc ccc' description='cccc cccc' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='ddd ddd' description='dddd dddd' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='eee eee' description='eeee eeee' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='fff fff' description='ffff ffff' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='ggg ggg' description='gggg gggg' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='hhh hhh' description='hhhh hhhh' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='iii iii' description='iiii iiii' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
   </div>
 
 </div>;

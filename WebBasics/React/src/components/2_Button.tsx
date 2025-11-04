@@ -9,7 +9,7 @@ export default function Button({title}: Props) {
     let style = amountOfClicks>5?"bg-blue-600":"";
   
   return (
-    <div className={'w-45 text-white hover:bg-green-400 bg-green-600 cursor-pointer p-3 ${style}'} onClick={()=>{
+    <div className={'m-2 w-45 text-white hover:bg-green-400 bg-green-600 cursor-pointer p-3 ${style}'} onClick={()=>{
       setAmountOfClicks(amountOfClicks+1)
 }}>
         <p>{title}</p>

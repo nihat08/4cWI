@@ -2,6 +2,9 @@ import Card from './components/1_Card';
 import Button from './components/2_Button';
 import ShoppingList from './components/2_ShoppingList';
 import ImageCard from './components/2_Card';
+import Container from './components/3_Cards';
+import Cards from './components/3_Cards';
+
 
 
 export default function App() {
@@ -33,8 +36,20 @@ export default function App() {
     <ImageCard title="" description="" />
   </div>
 
+  <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">3_Cards&Data</h2>
+  <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-2">
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+    <Cards fullName='xxx yyy' description='xxx yyy zzz' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
+  </div>
 
-  </div>;
+</div>;
 }
 
 

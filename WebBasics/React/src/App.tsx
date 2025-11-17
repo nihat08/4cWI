@@ -4,6 +4,7 @@ import ShoppingList from './components/2_ShoppingList';
 import ImageCard from './components/2_Card';
 import Container from './components/3_Cards';
 import Cards from './components/3_Cards';
+import Counter from './components/4_Counter';
 
 
 
@@ -49,6 +50,10 @@ export default function App() {
     <Cards fullName='iii iii' description='iiii iiii' image={`https://picsum.photos/200?radnom=${Math.random()}`}/>
   </div>
 
+  <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">4_Counter</h2>
+  <div>
+    <Counter title="Counter:"></Counter>
+  </div>
 </div>;
 }
 

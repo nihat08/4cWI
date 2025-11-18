@@ -7,6 +7,8 @@ import Cards from './components/3_Cards';
 import Counter from './components/4_Counter';
 import LightSwitch from './components/5_LightBulb';
 import LightBulb from './components/5_LightSwitch';
+import ToDo from './components/7_ToDo';
+import { useEffect } from 'react';
 
 
 
@@ -61,7 +63,14 @@ export default function App() {
   <div className="flex border w-80 m-2 p-2 bg-emerald-200">
     <LightSwitch/>
     <LightBulb/>
-    
+  </div>
+
+  <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">7_ToDo</h2>
+  <div className="grid grid-cols-2">
+    <ToDo completed={false} title="putzen"/>
+    <ToDo completed={false} title="pissen"/>
+    <ToDo completed={false} title="zocken"/>
+    <ToDo completed={false} title="essen"/>
   </div>
 </div>;
 }

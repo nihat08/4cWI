@@ -5,6 +5,8 @@ import ImageCard from './components/2_Card';
 import Container from './components/3_Cards';
 import Cards from './components/3_Cards';
 import Counter from './components/4_Counter';
+import LightSwitch from './components/5_LightBulb';
+import LightBulb from './components/5_LightSwitch';
 
 
 
@@ -53,6 +55,13 @@ export default function App() {
   <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">4_Counter</h2>
   <div>
     <Counter title="Counter:"></Counter>
+  </div>
+
+  <h2 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">5_LightSwitch</h2>
+  <div className="flex border w-80 m-2 p-2 bg-emerald-200">
+    <LightSwitch/>
+    <LightBulb/>
+    
   </div>
 </div>;
 }

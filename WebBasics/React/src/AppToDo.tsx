@@ -9,6 +9,7 @@ interface TodoItem {
 }
 
 export default function App() {
+    
     const [todos, setTodos] = useState<TodoItem[]>([]);
 
     useEffect(() => {
@@ -24,9 +25,11 @@ export default function App() {
             <h1 className="bg-red-400 w-80 m-2 p-2 flex justify-center font-bold">
                 7_ToDo
             </h1>
+            <div className="grid grid-cols-4 gap-1">
             {todos.map((todo: TodoItem) => (
                 <ToDo key={todo.id} title={todo.title} completed={todo.completed} />
             ))}
+            </div>
         </div>
     );
 }

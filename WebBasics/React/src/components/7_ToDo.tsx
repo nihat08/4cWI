@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 type Props = {
-    title: string;
-    completed: boolean;
+
 }
 
-export default function ToDo({ title, completed }: Props) {
+export default function ToDo({}: Props) {
+    const [ToDos, setToDos] = useState([]);
+        const [filterToDos, setFilterToDos] = useState([]);
+    
+        useEffect(() => {
+                fetch("https://jsonplaceholder.typicode.com/todos")
+                    .then(res => res.json())
+                    .then((json) => {
+                        setToDos(json);
+                        setFilterToDos(json);
+                    });
+            }, []);
     return (
-        <div className={`border p-4 ${completed ? "bg-green-500" : "bg-red-500"}`}>
-            <div>{title}</div>
-            <div>{completed}</div>
-        </div>
+        <div></div>
     )
 }

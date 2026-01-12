@@ -3,7 +3,8 @@ import ToDoCard from "./components/FilterToDo/8_ToDoCard";
 import ToDoList from "./components/FilterToDo/8_ToDoList";
 
 export default function App() {
-    //man merkt sich immer was mit useState!
+
+    //Durch UseState werden Daten gemerkt. Wenn sich der Wert ändert, wird die Komponente neu gerendert
     const [searchValue, setSearchValue] = useState("");
     return (
     <div>
@@ -12,7 +13,7 @@ export default function App() {
           <input 
             className="p-2 border" 
             type="text" 
-            onChange={(el)=>setSearchValue(el.target.value)}
+            onChange={(e)=>setSearchValue(e.target.value)}
             value={searchValue} 
             placeholder="search..."/>   
         </div>

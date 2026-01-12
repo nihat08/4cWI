@@ -17,6 +17,7 @@ const router = createBrowserRouter([
 
 const root = document.getElementById("root");
 
+//React wird mit DOM vom Browser verbunden und Routing wird gestartet
 ReactDOM.createRoot(root!).render(
   <RouterProvider router={router} />,
 );

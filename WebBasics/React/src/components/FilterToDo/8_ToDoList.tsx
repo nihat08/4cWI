@@ -21,6 +21,8 @@ export default function ToDoList({search}: Props) {
     }, []); //Dependency Array leer = nur einmal beim ersten rendern ausführen
             //Dependency Array mit variablen = bei änderung der variable ausführen
 
+    
+
     //UseEffect für suchen
     useEffect(()=>{ 
         let result = ToDos.filter((todo:Todo) => todo.title.includes(search)) //filtert die todos nach dem suchbegriff

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ToDo from "./components/7_ToDo";
+import ToDo from "./components/Basics/7_ToDo";
 
 interface TodoItem {
     completed: boolean;

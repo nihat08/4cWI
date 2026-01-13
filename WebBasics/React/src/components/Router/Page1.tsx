@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Cards from '../3_Cards'
-import ShoppingList from '../2_ShoppingList'
+import Cards from '../Basics/3_Cards'
+import ShoppingList from '../Basics/2_ShoppingList'
 
 type Props = {}
 

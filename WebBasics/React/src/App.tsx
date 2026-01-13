@@ -1,12 +1,12 @@
-import Card from './components/1_Card';
-import Button from './components/2_Button';
-import ShoppingList from './components/2_ShoppingList';
-import ImageCard from './components/2_Card';
-import Container from './components/3_Cards';
-import Cards from './components/3_Cards';
-import Counter from './components/4_Counter';
-import LightSwitch from './components/5_LightBulb';
-import LightBulb from './components/5_LightSwitch';
+import Card from './components/Basics/1_Card';
+import Button from './components/Basics/2_Button';
+import ShoppingList from './components/Basics/2_ShoppingList';
+import ImageCard from './components/Basics/2_Card';
+import Container from './components/Basics/3_Cards';
+import Cards from './components/Basics/3_Cards';
+import Counter from './components/Basics/4_Counter';
+import LightSwitch from './components/Basics/5_LightBulb';
+import LightBulb from './components/Basics/5_LightSwitch';
 import { useEffect } from 'react';
 
 

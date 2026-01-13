@@ -26,8 +26,8 @@ export default function App() {
                 7_ToDo
             </h1>
             <div className="grid grid-cols-5 gap-2">
-            {todos.map((todo: TodoItem) => (
-                <ToDo key={todo.id}/>
+            {todos.map((todo: TodoItem) => ( //map: geht durch jedes element im array, daten aus fetch 
+                <ToDo key={todo.id}/> //key: eindeutiger identifier für jedes element im array
             ))}
             </div>
         </div>

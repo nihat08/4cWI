@@ -34,9 +34,10 @@ export default function MovieList({search}: Props) {
         
         {filteredMovies.map((movie: Movie) => (
             <MovieCard 
+                id={movie["#IMDB_ID"]}
                 title={movie["#TITLE"]}
                 year={movie["#YEAR"]}
-        
+                poster={movie["#IMG_POSTER"]}
             />
         ))}
     </div>

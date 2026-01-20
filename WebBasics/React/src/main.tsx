@@ -1,8 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React, { StrictMode } from "react";
+import ReactDOM, { createRoot } from "react-dom/client";
 import "./index.css"; 
 import MovieApp from "./MovieApp";
+import App from "./10_App";
 
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <App></App>
+  </StrictMode>
+)
+
+
+/*Spider Man Main App
 const root = document.getElementById("root");
 if (root) {
   ReactDOM.createRoot(root).render(
@@ -11,6 +21,7 @@ if (root) {
     </React.StrictMode>
   );
 }
+*/
 
 
 

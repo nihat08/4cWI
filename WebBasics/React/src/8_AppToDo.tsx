@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ToDoCard from "./components/FilterToDo/8_ToDoCard";
 import ToDoList from "./components/FilterToDo/8_ToDoList";
 
 export default function App() {

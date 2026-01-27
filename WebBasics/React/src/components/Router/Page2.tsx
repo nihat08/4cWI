@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Page2({}: Props) { 
   const location = useLocation();
-  const person = location.state.person; //person wird von der vorherigen Seite übergeben
+  const person = location.state.person; 
 
   return (
     <div>

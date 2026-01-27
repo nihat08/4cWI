@@ -1,6 +1,5 @@
-import React from 'react'
-import MovieList from './components/FilmProjekt/MovieList'
-import MovieCard from './components/FilmProjekt/MovieCard';
+import React from 'react';
+import MovieList from './components/FilmProjekt/MovieList';
 
 type Props = {}
 

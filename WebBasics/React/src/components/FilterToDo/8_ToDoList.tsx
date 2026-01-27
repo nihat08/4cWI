@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import ToDoCard from './8_ToDoCard'
-import type { Todo } from '../../utils/types'; 
+import { useEffect, useState } from 'react';
+import type { Todo } from '../../utils/types';
+import ToDoCard from './8_ToDoCard';
 
 type Props = { //Props sind die daten die von aussen in die Komponente reinkommen
     search:string; //Suchbegriff

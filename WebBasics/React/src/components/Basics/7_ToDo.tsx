@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
 type Props = {
 
 }
 
 export default function ToDo({}: Props) {
-    const [ToDos, setToDos] = useState([]);
-        const [filterToDos, setFilterToDos] = useState([]);
+    const [, setToDos] = useState([]);
+        const [, setFilterToDos] = useState([]);
     
         useEffect(() => {
                 fetch("https://jsonplaceholder.typicode.com/todos")

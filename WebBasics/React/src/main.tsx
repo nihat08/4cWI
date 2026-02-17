@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import MovieApp from "./MovieApp";
-
+import FirebaseApp from "./components/Firebase/App";
 /*10 UseState & UseEffect App
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,7 +16,7 @@ const root = document.getElementById("root");
 if (root) {
   ReactDOM.createRoot(root).render(
     <React.StrictMode>
-      <MovieApp />
+      <FirebaseApp />
     </React.StrictMode>
   );
 }
